@@ -10,7 +10,7 @@ There are two folders here, one is the test_lambda_tip this is a function that c
 The app_kpi is the app itself you should run the application.py 
 
 
-for the dashboard log ing username:HELLO and Password: World
+for the dashboard log ing username:hello and Password: world
 
 
 The application runs with csv files it figured out that each year you will need why?
