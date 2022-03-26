@@ -1,0 +1,81 @@
+body {
+    background-color: #192444;
+    margin: 2%;
+}
+
+.card-container {
+    border-radius: 5px;
+    background-color: #1f2c56;
+    height: 120px;
+    width: 150px;
+    border: 2px red solid;
+    margin: 15px;
+    padding: 25px;
+    position: relative;
+    box-shadow: 2px 2px 2px #1f2c56;
+    color: white;
+}
+
+.graph-container {
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 25px;
+    padding: 25px;
+    /* position: relative; */
+    box-shadow: 2px 2px 2px #1f2c56;
+    height: 180px;
+    width: 200px;
+}
+
+
+/* input box */
+
+.Select-control {
+    background-color: #1f2c56;
+}
+
+
+/* changes the text color of input box */
+
+.Select-value-label {
+    color: white !important;
+}
+
+.Select--single>.Select-control .Select-value,
+.Select-placeholder {
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+
+/* dropdown menu options */
+
+.VirtualizedSelectOption {
+    background-color: #1f2c56;
+    color: white;
+}
+
+
+/* dropdown menu hover effect */
+
+.VirtualizedSelectFocusedOption {
+    background-color: rgb(10, 4, 34);
+    opacity: .7;
+}
+
+
+/* border on focus - default is blue
+ * shadow box around input box.  default is blue
+ */
+
+.is-focused:not(.is-open)>.Select-control {
+    border-color: var(--primary);
+    box-shadow: none;
+}
+
+
+/* this colors the input box text and x  of multi dropdown*/
+
+.Select--multi .Select-value {
+    color: white;
+}
