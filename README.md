@@ -14,7 +14,7 @@ The app_kpi is the app itself you should run the application.py
 for the dashboard log ing username:hello and Password: world
 
 
-The application runs with csv files it figured out that each year you will need:
+The application runs with csv files since I figured out that each year you will need:
 
 TOTAL SIZE OF THE 4 CSV's WITH THE KPI IS 2 KB more or less
 So each year you will have 6 *2 = 12 kb of data
